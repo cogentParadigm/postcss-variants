@@ -1,0 +1,10 @@
+.static { position: static; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed { position: fixed; }
+.sticky { position: sticky; }
+.hover-static:hover, .hover-static:focus { position: static; }
+.hover-relative:hover, .hover-relative:focus { position: relative; }
+.hover-absolute:hover, .hover-absolute:focus { position: absolute; }
+.hover-fixed:hover, .hover-fixed:focus { position: fixed; }
+.hover-sticky:hover, .hover-sticky:focus { position: sticky; }

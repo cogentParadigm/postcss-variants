@@ -1,0 +1,38 @@
+.static { position: static; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed { position: fixed; }
+.sticky { position: sticky; }
+.hover-static:hover, .hover-static:focus { position: static; }
+.hover-relative:hover, .hover-relative:focus { position: relative; }
+.hover-absolute:hover, .hover-absolute:focus { position: absolute; }
+.hover-fixed:hover, .hover-fixed:focus { position: fixed; }
+.hover-sticky:hover, .hover-sticky:focus { position: sticky; }
+@media (--breakpoint-sm) {
+  .static-sm { position: static; }
+  .relative-sm { position: relative; }
+  .absolute-sm { position: absolute; }
+  .fixed-sm { position: fixed; }
+  .sticky-sm { position: sticky; }
+}
+@media (--breakpoint-md) {
+  .static-md { position: static; }
+  .relative-md { position: relative; }
+  .absolute-md { position: absolute; }
+  .fixed-md { position: fixed; }
+  .sticky-md { position: sticky; }
+}
+@media (--breakpoint-lg) {
+  .static-lg { position: static; }
+  .relative-lg { position: relative; }
+  .absolute-lg { position: absolute; }
+  .fixed-lg { position: fixed; }
+  .sticky-lg { position: sticky; }
+}
+@media (--breakpoint-xl) {
+  .static-xl { position: static; }
+  .relative-xl { position: relative; }
+  .absolute-xl { position: absolute; }
+  .fixed-xl { position: fixed; }
+  .sticky-xl { position: sticky; }
+}
