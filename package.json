@@ -12,7 +12,7 @@
   ],
   "main": "src/index.js",
   "scripts": {
-    "test": "jest --coverage && eslint-ci ."
+    "test": "jest --coverage && eslint ."
   },
   "author": "Ali Gangji <ali@neonrain.com>",
   "license": "MIT",
