@@ -95,7 +95,7 @@ They can also be nested to apply them combinatorially.
   .black-xl { color: black; }
   .hover-black-xl:hover { color: black; }
 }
-
+```
 
 ## Usage
 
