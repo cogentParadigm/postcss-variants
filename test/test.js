@@ -33,6 +33,14 @@ it('includes a hover variant', async () => {
   )
 })
 
+it('includes a focus variant', async () => {
+  await run(
+    getFixture("focus/input.css"),
+    getFixture("focus/output.css"),
+    { }
+  )
+})
+
 it('can generate multiple variants', async () => {
   await run(
     getFixture("responsive-hover/input.css"),

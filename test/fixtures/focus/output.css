@@ -1,0 +1,10 @@
+.static { position: static; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed { position: fixed; }
+.sticky { position: sticky; }
+.focus-static:focus { position: static; }
+.focus-relative:focus { position: relative; }
+.focus-absolute:focus { position: absolute; }
+.focus-fixed:focus { position: fixed; }
+.focus-sticky:focus { position: sticky; }

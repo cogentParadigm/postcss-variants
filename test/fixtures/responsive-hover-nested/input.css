@@ -1,5 +1,5 @@
 @variants responsive {
-  @variants hover {
+  @variants hover, focus {
     .static { position: static; }
     .relative { position: relative; }
     .absolute { position: absolute; }

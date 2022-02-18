@@ -4,6 +4,7 @@ module.exports = (opts = { }) => {
 
   const defaultPlugins = {
     hover: require("./variants/hover")(),
+    focus: require("./variants/focus")(),
     responsive: require("./variants/responsive")()
   }
 

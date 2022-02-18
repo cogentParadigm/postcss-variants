@@ -8,6 +8,11 @@
 .hover-absolute:hover, .hover-absolute:focus { position: absolute; }
 .hover-fixed:hover, .hover-fixed:focus { position: fixed; }
 .hover-sticky:hover, .hover-sticky:focus { position: sticky; }
+.focus-static:focus { position: static; }
+.focus-relative:focus { position: relative; }
+.focus-absolute:focus { position: absolute; }
+.focus-fixed:focus { position: fixed; }
+.focus-sticky:focus { position: sticky; }
 @media (--breakpoint-sm) {
   .static-sm { position: static; }
   .relative-sm { position: relative; }
@@ -19,6 +24,11 @@
   .hover-absolute-sm:hover, .hover-absolute-sm:focus { position: absolute; }
   .hover-fixed-sm:hover, .hover-fixed-sm:focus { position: fixed; }
   .hover-sticky-sm:hover, .hover-sticky-sm:focus { position: sticky; }
+  .focus-static-sm:focus { position: static; }
+  .focus-relative-sm:focus { position: relative; }
+  .focus-absolute-sm:focus { position: absolute; }
+  .focus-fixed-sm:focus { position: fixed; }
+  .focus-sticky-sm:focus { position: sticky; }
 }
 @media (--breakpoint-md) {
   .static-md { position: static; }
@@ -31,6 +41,11 @@
   .hover-absolute-md:hover, .hover-absolute-md:focus { position: absolute; }
   .hover-fixed-md:hover, .hover-fixed-md:focus { position: fixed; }
   .hover-sticky-md:hover, .hover-sticky-md:focus { position: sticky; }
+  .focus-static-md:focus { position: static; }
+  .focus-relative-md:focus { position: relative; }
+  .focus-absolute-md:focus { position: absolute; }
+  .focus-fixed-md:focus { position: fixed; }
+  .focus-sticky-md:focus { position: sticky; }
 }
 @media (--breakpoint-lg) {
   .static-lg { position: static; }
@@ -43,6 +58,11 @@
   .hover-absolute-lg:hover, .hover-absolute-lg:focus { position: absolute; }
   .hover-fixed-lg:hover, .hover-fixed-lg:focus { position: fixed; }
   .hover-sticky-lg:hover, .hover-sticky-lg:focus { position: sticky; }
+  .focus-static-lg:focus { position: static; }
+  .focus-relative-lg:focus { position: relative; }
+  .focus-absolute-lg:focus { position: absolute; }
+  .focus-fixed-lg:focus { position: fixed; }
+  .focus-sticky-lg:focus { position: sticky; }
 }
 @media (--breakpoint-xl) {
   .static-xl { position: static; }
@@ -55,4 +75,9 @@
   .hover-absolute-xl:hover, .hover-absolute-xl:focus { position: absolute; }
   .hover-fixed-xl:hover, .hover-fixed-xl:focus { position: fixed; }
   .hover-sticky-xl:hover, .hover-sticky-xl:focus { position: sticky; }
+  .focus-static-xl:focus { position: static; }
+  .focus-relative-xl:focus { position: relative; }
+  .focus-absolute-xl:focus { position: absolute; }
+  .focus-fixed-xl:focus { position: fixed; }
+  .focus-sticky-xl:focus { position: sticky; }
 }
