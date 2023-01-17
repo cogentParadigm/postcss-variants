@@ -57,6 +57,14 @@ it('can handle nested variants', async () => {
   )
 })
 
+it('can customize transform function', async () => {
+  await run(
+    getFixture("responsive-custom-transform/input.css"),
+    getFixture("responsive-custom-transform/output.css"),
+    { transform: (selector, suffix) => `${suffix}-${selector.value}` }
+  )
+})
+
 it('will throw an error for non existant variants', async () => {
   function thrower() {
     const root = postcss.root();
