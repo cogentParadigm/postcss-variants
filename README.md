@@ -112,3 +112,15 @@ postcss([
   require('postcss-variants')()
 ]).process(YOUR_CSS)
 ```
+
+## Customize transform function
+
+Use the transform param to customize the selector structure
+
+```js
+postcss([
+  require('postcss-variants')({
+    transform: (selector, suffix) => `${suffix}-${selector}`
+  })
+]).process(YOUR_CSS)
+```

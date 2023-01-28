@@ -3,9 +3,9 @@ module.exports = (opts = { }) => {
   opts.plugins = opts.plugins || {};
 
   const defaultPlugins = {
-    hover: require("./variants/hover")(),
-    focus: require("./variants/focus")(),
-    responsive: require("./variants/responsive")()
+    hover: require("./variants/hover")(opts),
+    focus: require("./variants/focus")(opts),
+    responsive: require("./variants/responsive")(opts)
   }
 
   opts.plugins = Object.assign({}, defaultPlugins, opts.plugins)

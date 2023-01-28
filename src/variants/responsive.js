@@ -2,11 +2,15 @@ module.exports = (opts = { }) => {
 
   const parser = require('postcss-selector-parser');
 
+  opts.transform = opts.transform || function(selector, suffix) {
+    return `${selector.value}-${suffix}`
+  };
+
   const createTransformer = suffix => {
     return selectors => {
       selectors.walk(selector => {
           if (selector.type == "class") {
-            selector.value += `-${suffix}`
+            selector.value = opts.transform(selector, suffix)
           }
       });
     };
